@@ -29,7 +29,7 @@ class Penetrator(Agent):
         self.cave = cave
         self.gamestate = NOTHRUST
 
-        self.file = "penetrator"
+        self.file = "media/penetrator"
         self.taglen = 2
         #SINGLE STATE STATES
         self.loadimage(NOTHRUST)

@@ -44,7 +44,7 @@ class GameController():
         Resource handling classes
         '''
         #each slice is 32 pixels wide
-        self.cave = Cave("cavedata4.csv",192,32,self.sy,self)
+        self.cave = Cave("data/cavedata.csv",192,32,self.sy,self)
         self.ship = Penetrator(self.cave)
 
     def mainloop(self):
