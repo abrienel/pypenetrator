@@ -252,6 +252,8 @@ class Penetrator(Agent):
                                     slice.obj = None
                                     self.cave.gt.destroysound.play()
                                     self.score+=10
+                                    bullet.gamestate=NOTHRUST
+                                    bullet.lifetime=0
             i+=1
         #print("len(missiles)=%s" %len(missiles))
         if towercount>0:
